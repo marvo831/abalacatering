@@ -302,9 +302,11 @@ body{
 	margin-bottom: 40px;
 	padding: 40px;
 	color: #192a56;
+	font-size: 14px;
 
 	
 }
+
 .row{
 	display: flex;
 	justify-content: space-between;
@@ -451,6 +453,15 @@ body{
 .contact-right{
 	flex-basis: 60%;
 
+}
+.contact-right img{
+	width: 100%;
+
+}
+.h{
+	font-size: 15px;
+	margin: 15px 0;
+	
 }
 .contact-left p{
 	margin-top: 40px;
@@ -656,5 +667,7 @@ nav .fa-solid{
 	margin-top: -40px;
 	display: block;
 }
+
+
 
 
