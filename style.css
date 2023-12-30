@@ -701,6 +701,10 @@ nav .fa-solid{
    #services{
    	margin-top: 0;
    }
+	.image, .cont{
+   	flex-basis: 100%;
+   }
+
    #contact{
    	margin-top: 40px;
    }
