@@ -811,6 +811,9 @@ nav .fa-solid{
 	    width, 100px
 	    
 }
+	.icons{
+		margin-right: 40px;
+	}
     .icons #menu-bars{
 	display: block;
 }
