@@ -128,10 +128,12 @@ body{
 		font-weight: 500;
 	font-size: 40px;
 	margin-bottom: 20px;
+	color: yellow;
 }
 .header-text p{
 	font-size: 30px;
 	margin-bottom: 30px;
+	color: yellowgreen;
 }
 .header-text a{
 	font-size: 20px;
@@ -153,18 +155,18 @@ body{
 #services{
 	margin-top: 0;
 	padding: 30px 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), #eee);
+    background: #de3730ff;
 }
 .work1{
-	border-radius: 10px;
 	position: relative;
 	overflow: hidden;
+    margin-top: -10px;
 }
 .work1 img{
 	width: 100%;
 	height: 100%;
-	border-radius: 10px;
 	display: block;
+	
 
 }
 
@@ -181,34 +183,27 @@ body{
 }
 
 .services-list div{
-	padding: 5px 2px;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), #fff);
+	padding: 0;
 	font-size: 13px;
 	font-weight: 300;
-	border-radius: 10px;
+	background: #fff;
 }
 .services-list div h2{
-	font-size: 30px;
+	font-size: 25px;
+    margin: 0 10px;
 	font-weight: 300;
 	font-family: georgia;
-	margin-bottom: 15px;
+	margin-top: 10px;
 }
 
 .services-list div p{
 	font-size: 14px;
 	font-weight: 400;
 	color: #000;
-	padding: 5px;
-	margin-top: 20px;
+	padding: 0 10px;
+	margin-top: 10px;
 }
-.services-list div a{
-	text-decoration: none;
-	color: #27ae60;
-	font-size: 16px;
-	margin-top: 20px;
-	display: inline-block;
 
-}
 .services-list div:hover{
 	
 	transform: scale(1.0);
@@ -217,11 +212,11 @@ body{
 
 #hom{
     margin-top: 50px;
-	margin-bottom: 0;
+	margin-bottom: -30px;
 	padding: 40px;
-	color: #192a56;
 	font-size: 14px;
-    background: #fff;
+	background: #410002ff;
+   
 	
 }
 .home-slider{
@@ -258,10 +253,11 @@ body{
 .cont h3{
 	font-size: 30px;
 	margin-top: 40px;
+	color: yellow;
 
 }
 .cont p{
-	color: #000;
+	color: yellowgreen;
 	font-size: 16px;
 	margin-top: 20px;
 }
@@ -276,6 +272,7 @@ body{
 #menu{
 	margin-top: 0;
 	padding: 50px 0;
+	background: #3c4043;
 }
 
 .work-list{
@@ -339,30 +336,10 @@ body{
 .work:hover .layer{
 	height: 0;
 }
-.btn5{
-	display: block;
-	margin-top: 50px;
-	margin-left: 400px;
-	width: fit-content;
-	border: 1px solid #fff;
-	background: #27ae60;
-	padding: 14px;
-	border-radius: 6px;
-	font-size: 18px;
-	text-decoration: none;
-	color: #fff;
-
-
-}
-.btn5:hover{
-	background: green;
-	transform: scale(1.2);
-}
-
 
 
 #menu1{
-	margin-top: 0;
+	margin-top: 40px;
 	padding: 50px 0;
 	display: block;
 	width: 70%;
@@ -370,17 +347,20 @@ body{
 	margin-bottom: 100px;
 	background: #fff;
 }
-
 .sub-title11{
-	color: #27ae60;
+	color: #000;
+}
+.sub-title12{
+	color: grey;
 	margin: 20px 0;
 }
 .budget{
 margin-top: 20px;
 }
 .budget p{
-	font-size: 18px;
-	color: #192a56;
+	font-size: 16px;
+	color: #000;
+	font-weight: 500;
 	width: 90%;
 	margin-left: 15px;
 	margin-top: 15px;
@@ -390,17 +370,38 @@ margin-top: 20px;
 	margin: 50px;
 	width: fit-content;
 	border: 1px solid #fff;
-	background: #27ae60;
-	padding: 14px;
-	border-radius: 6px;
+	background: transparent;
+	padding: 12px;
+	border-radius: 4px;
 	font-size: 18px;
 	text-decoration: none;
-	color: #fff;
+	color: yellowgreen;
 
 
 }
 .btn:hover{
-	background: green;
+	background: yellowgreen;
+	color: #fff;
+	transform: scale(1.1);
+}
+
+.btn6{
+	display: block;
+	margin: 50px;
+	width: fit-content;
+	border: 1px solid #fff;
+	background: #000;
+	padding: 12px;
+	border-radius: 4px;
+	font-size: 18px;
+	text-decoration: none;
+	color: yellowgreen;
+
+
+}
+.btn6:hover{
+	background: yellowgreen;
+	color: #fff;
 	transform: scale(1.1);
 }
 
@@ -413,8 +414,7 @@ margin-top: 20px;
 	padding: 40px;
 	color: #192a56;
 	font-size: 14px;
-
-	
+  background: linear-gradient(rgba(0.4, 0, 0.4, 0.2), #eee);
 }
 
 .row{
@@ -445,7 +445,14 @@ margin-top: 20px;
 	font-size: 40px;
 	margin-top: 10px;
 	font-weight: 500;
-	color: #192a56;
+	color: yellow;
+	font-family: italic;
+}
+.sub-title22{
+	font-size: 30px;
+	margin-top: 10px;
+	font-weight: 500;
+	color: #000;
 	font-family: italic;
 }
 .about-col-2 p{
@@ -454,7 +461,7 @@ margin-top: 20px;
 
 }
 .sub-title1{
-	color: #27ae60;
+	color: yellowgreen;
 	margin: 20px 0;
 }
 .tab-titles{
@@ -486,6 +493,7 @@ margin-top: 20px;
 	padding: 40px;
 	color: #192a56;
 	font-size: 14px;
+	background: #eee;
 
 	
 }
@@ -518,7 +526,7 @@ margin-top: 20px;
 .sub-title{
 	font-size: 40px;
 	font-weight: 500;
-	color: #192a56;
+	color: yellow;
 	font-family: italic;
 }
 .about-col-21 p{
@@ -527,7 +535,7 @@ margin-top: 20px;
 
 }
 .sub-title1{
-	color: #27ae60;
+	color: yellowgreen;
 	margin-top: 20px;
 }
 .tab-titles{
@@ -560,6 +568,7 @@ margin-top: 20px;
 	padding: 40px;
 	color: #192a56;
 	font-size: 14px;
+	background: #eee;
 
 	
 }
@@ -593,7 +602,7 @@ margin-top: 20px;
 .sub-title{
 	font-size: 40px;
 	font-weight: 500;
-	color: #192a56;
+	color: yellow;
 	font-family: italic;
 }
 .about-col-23 p{
@@ -618,7 +627,7 @@ margin-top: 20px;
 	padding: 40px;
 	color: #192a56;
 	font-size: 14px;
-   background: linear-gradient(rgba(0.1, 0.1, 0.1, 0.1), #fff);
+   background: #eee;
    filter: brightness(100%);
 	
 }
@@ -630,7 +639,8 @@ margin-top: 20px;
 
 #reviews{
 	
- background: linear-gradient(rgba(0.1, 0.1, 0.1, 0.1), #fff);
+ background: #54595F;
+ padding-bottom: 80px;
 }
 .work2{
 	border-radius: 10px;
@@ -687,9 +697,16 @@ margin-top: 20px;
 }
 #contact{
 
-   	background: linear-gradient(rgba(0, 0, 0, 0.2), #fff);
+   	background: #54595F;
+	margin-top: 0;
+     padding: 40px 0;
+}
+#contact1{
+
+   	background: url(images/p3.jpg);
 	margin-top: 50px;
      padding: 40px 0;
+     filter: brightness(50%);
 }
 .contact-left{
 	flex-basis: 35%;
@@ -707,6 +724,7 @@ margin-top: 20px;
 .h{
 	font-size: 15px;
 	margin: 15px 0;
+	color: blue;
 	
 }
 .contact-left p{
@@ -715,12 +733,12 @@ margin-top: 20px;
 	color: blue;
 }
 .contact-left p span{
-	color: #192a56;
+	color: #fff;
 	font-size: 22px;
 }
 .social-icons i{
 	margin-top: 30px;
-   color: #192a56;
+   color: #fff;
    margin-right: 20px;
    font-size: 25px;
 
@@ -737,6 +755,7 @@ margin-top: 20px;
 	border-radius: 6px;
 	text-decoration: none;
 	color: #fff;
+	background: transparent;
 
 
 
@@ -801,19 +820,22 @@ nav .fa-solid{
 	html{
 		font-size: 50%;
 	}
+   body{
+   	max-width: 100%;
+   }
+
     #header{
     	width: 100%;
     	height: 550px;
     }
     .logo{
-    margin-left: -25px;
-	    height; 70px;
-	    width, 100px
-	    
+    margin-left: -30px;
+    width: 100px;
+    height: 70px;
 }
-	.icons{
-		margin-right: 80px;
-	}
+.icons a{
+	margin-right: ;
+}
     .icons #menu-bars{
 	display: block;
 }
@@ -862,57 +884,64 @@ nav .fa-solid{
      }
 
      #hom{
-
+    
      }
      .slider{
-     	 	background: linear-gradient(rgba(0.4, 0, 0.4, 0.2), #eee);
-          	margin-top: -60px;
-          	 	margin-bottom: 100px;
+     	 	
+          	padding: -20px;
+          	 	margin-bottom: 40px;
      }
      .cont h3{
-     	margin-top: -30px;
+     	margin-top: -20px;
      }
      .btn{
-     	margin-top: 50px;
+     	display: none;
      }
  
      #menu1{
      	width: 98%;
-       margin-left: 10px;
+     	margin-left: 10px;
+       margin-top: 0;
+       margin-bottom: -40px;
      }
 
        #menu1 img{
      	width: 100%;
 
      }
+      .btn6{
+     	margin-top: 20px;
+     }
+ 
      .budget{
      	width: 100%;
     
      }
 
-
+    #menu{
+    	width: 100%;
+    }
 
      #about{
-     	margin-top: 10px;
-     }
-   .about-col-1{
-   	margin-top: -80px;
-   }
+   margin: 0;
+}
+
       .sub{
+   
 	font-size: 14px;
+
 
 }
    .about-col-1, .about-col-2{
    	flex-basis: 100%;
-   	width: 98%;
    }
       .about-col-11, .about-col-21{
    	flex-basis: 100%;
-   	width: 98%;
+  
    }
       .about-col-13, .about-col-23{
    	flex-basis: 100%;
-   	width: 98%;
+  
    }
    .about-col-2{
    	font-size: 14px;
@@ -926,12 +955,25 @@ nav .fa-solid{
 
 }
    .sub-title{
-   	font-size: 35px;
+   	font-size: 25px;
    	padding: 6px 0;
    }
    .sub-title1{
    	font-size: 15px;
    }
+ 
+#about1{
+	margin: -25px;
+}
+#about3{
+	margin: -25px;
+}
+.about-col-13{
+	display: none;
+}
+#about4{
+	margin: -25px;
+}
    #services{
    	margin-top: 0;
    }
@@ -940,7 +982,7 @@ nav .fa-solid{
    }
 
    #contact{
-   	margin-top: 40px;
+   	margin-top: 0;
    }
      .contact-left, .contact-right{
    	flex-basis: 100%;
@@ -963,6 +1005,7 @@ nav .fa-solid{
 	margin-top: -40px;
 	display: block;
 }
+
 
 
 
